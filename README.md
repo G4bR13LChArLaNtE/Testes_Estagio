@@ -4,4 +4,4 @@ Diretório criado para guardar arquivos referentes aos testes feitos para vagas 
 ## Links para contato:
 
 :e-mail:  Meu E-mail: gabrielcharlante@gmail.com <br>
-:iphone:  Meu telefone: 11-950340797
+:iphone:  Meu telefone: (11)95034-0797
