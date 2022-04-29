@@ -62,6 +62,7 @@ function text_options() {
     var btnI = document.getElementById("i");
     var btnIvalor = 0;
     var btnB = document.getElementById("b");
+    var btnBvalor = 0;
 
     btnI.addEventListener("click", function(){
         if(btnIvalor === 0){
@@ -72,10 +73,16 @@ function text_options() {
             btnIvalor = 0;
         }
 
-    })
+    });
 
     btnB.addEventListener("click", function(){
+        if (btnBvalor === 0){
         document.querySelector("textarea").style.fontWeight = "bold";
+        btnBvalor = 1;}
+        else {
+            document.querySelector("textarea").style.fontStyle = "normal";
+            btnBvalor = 0;
+        }
     })
   
     
