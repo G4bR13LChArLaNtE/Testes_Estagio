@@ -1,6 +1,6 @@
 lista = [10, 20, 10, 20, 10, 30, 20, 50, 10]
-listaOrg = lista.sort()
-
+listaOrg = []
+listaOrg = sorted(lista)
 
 
 def numeroParesMeias(lista):
@@ -11,5 +11,5 @@ def numeroParesMeias(lista):
             num = lista.count(lista[i])
             cont += (num//2)
     return cont
-
-print(numeroParesMeias(lista))
+print(listaOrg)
+print("Número de pares formados: ", numeroParesMeias(listaOrg))
