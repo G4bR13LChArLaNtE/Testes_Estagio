@@ -11,5 +11,4 @@ def numeroParesMeias(lista):
             num = lista.count(lista[i])
             cont += (num//2)
     return cont
-print(listaOrg)
 print("Número de pares formados: ", numeroParesMeias(listaOrg))
